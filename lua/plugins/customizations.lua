@@ -54,4 +54,18 @@ return {
       return opts
     end,
   },
+
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      --style = "night",
+      on_highlights = function(hl, c)
+        hl.Visual = {
+          --bg = "#ff0000",
+          bg = c.magenta2, -- #ff007c
+          fg = c.black,
+        }
+      end,
+    },
+  },
 }
