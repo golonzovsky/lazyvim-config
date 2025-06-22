@@ -68,4 +68,19 @@ return {
       end,
     },
   },
+  {
+    "ibhagwan/fzf-lua",
+    opts = {
+
+      winopts = {
+        width = 1.0,
+        height = 1.0,
+        row = 0.5,
+        col = 0.5,
+        preview = {
+          scrollchars = { "┃", "" },
+        },
+      },
+    },
+  },
 }
